@@ -46,6 +46,7 @@ public class GithubQuerier {
                 sb.append(type);
                 sb.append("</h3>");
 
+                //
                 // Add formatted date
                 sb.append(" on ");
                 sb.append(formatted);
