@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4fcce467-84d3-48ec-821d-a99f2fa2fd52" name="Default" comment="should now have a commit message and first 8 of the SHA, listed in a vertical list numbered 1 -&gt; w/e commit 2 added a line,">
+    <list default="true" id="4fcce467-84d3-48ec-821d-a99f2fa2fd52" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ecs189/querying/github/GithubQuerier.java" afterPath="$PROJECT_DIR$/src/main/java/ecs189/querying/github/GithubQuerier.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -46,7 +45,7 @@
       <file leaf-file-name="GithubQuerier.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/ecs189/querying/github/GithubQuerier.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="528">
+            <state relative-caret-position="726">
               <caret line="49" column="25" lean-forward="false" selection-start-line="49" selection-start-column="25" selection-end-line="49" selection-end-column="25" />
               <folding />
             </state>
@@ -891,7 +890,7 @@
       <workItem from="1488913268156" duration="15764000" />
       <workItem from="1488935910513" duration="14000" />
       <workItem from="1488936282371" duration="10360000" />
-      <workItem from="1489196775611" duration="15116000" />
+      <workItem from="1489196775611" duration="15143000" />
     </task>
     <task id="LOCAL-00001" summary="should now have a commit message and first 8 of the SHA, listed in a vertical list numbered 1 -&gt; w/e">
       <created>1489450871419</created>
@@ -921,11 +920,18 @@
       <option name="project" value="LOCAL" />
       <updated>1489460321828</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="should now have a commit message and first 8 of the SHA, listed in a vertical list numbered 1 -&gt; w/e commit 2 added a line, and then another line.">
+      <created>1489460356522</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1489460356522</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="49211000" />
+    <option name="totallyTimeSpent" value="49238000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-16" y="-16" width="3872" height="2092" extended-state="6" />
@@ -1014,7 +1020,8 @@
     <MESSAGE value="should now have a commit message and first 8 of the SHA, listed in a vertical list numbered 1 -&gt; w/e" />
     <MESSAGE value="should now have a commit message and first 8 of the SHA, listed in a vertical list numbered 1 -&gt; w/e commit 2" />
     <MESSAGE value="should now have a commit message and first 8 of the SHA, listed in a vertical list numbered 1 -&gt; w/e commit 2 added a line" />
-    <option name="LAST_COMMIT_MESSAGE" value="should now have a commit message and first 8 of the SHA, listed in a vertical list numbered 1 -&gt; w/e commit 2 added a line" />
+    <MESSAGE value="should now have a commit message and first 8 of the SHA, listed in a vertical list numbered 1 -&gt; w/e commit 2 added a line, and then another line." />
+    <option name="LAST_COMMIT_MESSAGE" value="should now have a commit message and first 8 of the SHA, listed in a vertical list numbered 1 -&gt; w/e commit 2 added a line, and then another line." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1245,7 +1252,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ecs189/querying/github/GithubQuerier.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
+        <state relative-caret-position="726">
           <caret line="49" column="25" lean-forward="false" selection-start-line="49" selection-start-column="25" selection-end-line="49" selection-end-column="25" />
           <folding />
         </state>
