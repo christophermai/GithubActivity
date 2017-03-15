@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4fcce467-84d3-48ec-821d-a99f2fa2fd52" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/apache_tomcat_9_0_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hw4-hotswap/nginx-rev/swap1.sh" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hw4-hotswap/nginx-rev/swap3.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/activity/activity.war" afterPath="$PROJECT_DIR$/activity/activity.war" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GithubActivity.iml" afterPath="$PROJECT_DIR$/GithubActivity.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nginx/docker-compose.yml" afterPath="$PROJECT_DIR$/nginx/docker-compose.yml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -167,8 +161,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="16" />
-    <option name="y" value="14" />
+    <option name="x" value="-2" />
+    <option name="y" value="15" />
     <option name="width" value="1932" />
     <option name="height" value="1047" />
   </component>
@@ -969,15 +963,23 @@
       <workItem from="1489532270198" duration="62000" />
       <workItem from="1489532860315" duration="2995000" />
       <workItem from="1489542685714" duration="102000" />
-      <workItem from="1489542890853" duration="9910000" />
+      <workItem from="1489542890853" duration="9978000" />
     </task>
+    <task id="LOCAL-00001" summary="added nginx-rev and implemented swap1.sh, docker-compose.yml">
+      <created>1489562228350</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1489562228350</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="56011000" />
+    <option name="totallyTimeSpent" value="56079000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="16" y="14" width="1932" height="1047" extended-state="0" />
+    <frame x="-2" y="15" width="1932" height="1047" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1021,6 +1023,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="added nginx-rev and implemented swap1.sh, docker-compose.yml" />
+    <option name="LAST_COMMIT_MESSAGE" value="added nginx-rev and implemented swap1.sh, docker-compose.yml" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
