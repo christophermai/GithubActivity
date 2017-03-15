@@ -17,20 +17,24 @@ import java.util.List;
  */
 public class GithubQuerier {
 
+    //what about pages of events? there are more pages,and would explain why you dont count to 10 sometimes on vincents page
+
     private static final String BASE_URL = "https://api.github.com/users/";
-    private static final String TOKEN = "#access_token=cbe55b6bd013e096925e134e0f70ede3803ac8c0";
+//    private static final String TOKEN = "?&per_page=99";
 
     public static String eventsAsHTML(String user) throws IOException, ParseException {
         List<JSONObject> response = getEvents(user);
         StringBuilder sb = new StringBuilder();
         sb.append("<div>");
 
+        int pushCount = 1;
         String pushType = "PushEvent";
 
         for (int i = 0; i < response.size(); i++) {
             JSONObject event = response.get(i);
 
-          if (pushType.equalsIgnoreCase(event.getString("type"))){
+          if (pushType.equalsIgnoreCase(event.getString("type")) && pushCount <11){
+                pushCount++;
                 // Get event type
                 String type = event.getString("type");
 
@@ -96,15 +100,30 @@ public class GithubQuerier {
     }
 
     private static List<JSONObject> getEvents(String user) throws IOException {
+        String pageArg = "&page=";
+        int pageNum = 1;
+        boolean JSONArrayEmpty = false;
         List<JSONObject> eventList = new ArrayList<JSONObject>();
-        String url = BASE_URL + user + "/events" + TOKEN; //need to add token here
-        System.out.println(url);
-        JSONObject json = Util.queryAPI(new URL(url));
-        System.out.println(json);
-        JSONArray events = json.getJSONArray("root");
-        for (int i = 0; i < events.length() && i < 10; i++) {
-            eventList.add(events.getJSONObject(i));
+
+
+
+        while (JSONArrayEmpty == false) {
+            String url = BASE_URL + user + "/events?" + pageArg + pageNum; //need to add token here
+            System.out.println(url);
+            JSONObject json = Util.queryAPI(new URL(url));
+            System.out.println(json);
+            JSONArray events = json.getJSONArray("root");
+
+            if (events.length() == 0) {
+                JSONArrayEmpty = true;
+            } else {
+                for (int i = 0; i < events.length() && i < 10; i++) {
+                    eventList.add(events.getJSONObject(i));
+                }
+                pageNum++;
+            }
         }
         return eventList;
+
     }
 }
