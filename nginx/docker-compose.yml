@@ -1,9 +1,9 @@
 version: '2'
 services:
-  activity:
+  activity: #image name
     image: activity
 
-  ng:
+  ng: #image name
     ports:
      - "8888:8888"
     image: ng
