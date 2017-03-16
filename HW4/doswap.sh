@@ -2,7 +2,6 @@
 # This shell is to swap from outside the container
 # parameter of image name to run and swap into
 
-#50% extra credit
 #if $1=activity2
 if [ "$1" = 'activity2' ];
  then
