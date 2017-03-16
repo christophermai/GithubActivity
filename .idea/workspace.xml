@@ -1,23 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4fcce467-84d3-48ec-821d-a99f2fa2fd52" name="Default" comment="added nginx-rev and implemented swap1.sh, docker-compose.yml&#10;This repository contains the old activity&#10;My group partner jamiestarr1's repository contains the new activity">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HW4/README" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HW4/cleanup.sh" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HW4/docker-compose.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HW4/dorun.sh" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HW4/doswap.sh" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HW4/hw.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HW4/nginx-rev/Dockerfile" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HW4/nginx-rev/README" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HW4/nginx-rev/init.sh" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HW4/nginx-rev/nginx.conf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HW4/nginx-rev/swap1.sh" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HW4/nginx-rev/swap2.sh" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HW4/nginx-rev/swap3.sh" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/README.SUBMISSION" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw4-hotswap/nginx-rev/swap1.sh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw4-hotswap/nginx-rev/swap3.sh" afterPath="" />
+    <list default="true" id="4fcce467-84d3-48ec-821d-a99f2fa2fd52" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -172,10 +156,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="x" value="1" />
+    <option name="y" value="1" />
+    <option name="width" value="1918" />
+    <option name="height" value="1038" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -977,7 +961,7 @@
       <workItem from="1489532860315" duration="2995000" />
       <workItem from="1489542685714" duration="102000" />
       <workItem from="1489542890853" duration="10031000" />
-      <workItem from="1489612524224" duration="8384000" />
+      <workItem from="1489612524224" duration="8937000" />
     </task>
     <task id="LOCAL-00001" summary="added nginx-rev and implemented swap1.sh, docker-compose.yml">
       <created>1489562228350</created>
@@ -993,14 +977,21 @@
       <option name="project" value="LOCAL" />
       <updated>1489562292192</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="added doswap.sh&#10;added README.SUBMISSION">
+      <created>1489632389968</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1489632389968</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="64516000" />
+    <option name="totallyTimeSpent" value="65069000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="1" y="1" width="1918" height="1038" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1025,7 +1016,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3266385" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21878335" sideWeight="0.49791232" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.49791232" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23072916" sideWeight="0.5" order="7" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23291272" sideWeight="0.5" order="7" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980973" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -1048,7 +1039,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="added nginx-rev and implemented swap1.sh, docker-compose.yml" />
     <MESSAGE value="added nginx-rev and implemented swap1.sh, docker-compose.yml&#10;This repository contains the old activity&#10;My group partner jamiestarr1's repository contains the new activity" />
-    <option name="LAST_COMMIT_MESSAGE" value="added nginx-rev and implemented swap1.sh, docker-compose.yml&#10;This repository contains the old activity&#10;My group partner jamiestarr1's repository contains the new activity" />
+    <MESSAGE value="added doswap.sh&#10;added README.SUBMISSION" />
+    <option name="LAST_COMMIT_MESSAGE" value="added doswap.sh&#10;added README.SUBMISSION" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
