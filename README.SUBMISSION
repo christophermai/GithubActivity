@@ -1,6 +1,7 @@
 #HW4 - Christopher Mai, Jamie Starr
 
 #Files Created/edited:
+dorun.sh #composes and names containers after killing any old containers.
 doswap.sh #shellscript for extra credit
 docker-compose.yml #composes a network containing 2 containers: web1 (based off image activity) with port 8080 randomly mapped, and proxy (based off image ng) with port 8888 mapped to 8888
 Dockerfile #edited because it was causing crashes when trying to build ng. Still does the same thing essentially.
@@ -15,7 +16,7 @@ cd HW4
 ./dorun.sh
 docker run -d --name=web2 --network=ecs189_default activity2
 docker exec ecs189_proxy_1 /bin/bash /bin/swap2.sh
-docker kill ecs189_web1_1
+docker kill web1
 
 #Swap back:
 docker run -d --name=web1 --network=ecs189_default activity
