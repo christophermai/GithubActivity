@@ -1,0 +1,27 @@
+#HW4 - Christopher Mai, Jamie Starr
+
+#Files Created/edited:
+doswap.sh #shellscript for extra credit
+docker-compose.yml #composes a network containing 2 containers: web1 (based off image activity) with port 8080 randomly mapped, and proxy (based off image ng) with port 8888 mapped to 8888
+Dockerfile #edited because it was causing crashes when trying to build ng. Still does the same thing essentially.
+init.sh #edited as perscribed in smartsite announcement to reference activity
+swap1.sh #swaps from activity2 to activity by going to nginx directory, string edit nginx.conf and put it into tmp/xxx, then replace old nginx.conf with new one, and reload nginx.
+swap3.sh #does nothing
+
+#Commands to run from root directory:
+cd HW4
+
+#First Swap:
+./dorun.sh
+docker run -d --name=web2 --network=ecs189_default activity2
+docker exec ecs189_proxy_1 /bin/bash /bin/swap2.sh
+docker kill ecs189_web1_1
+
+#Swap back:
+docker run -d --name=web1 --network=ecs189_default activity
+docker exec ecs189_proxy_1 /bin/bash /bin/swap1.sh
+docker kill web2
+
+#Extra Credit:
+./dorun.sh
+./doswap.sh [activity image name]
